@@ -1,13 +1,13 @@
 # yagames_renpy
 yagames_renpy - это скромная обёртка над Yandex Game SDK для Ren'Py.
 
+## Установка
+Перейдите [последнему релизу](https://github.com/valery-iwanofu/yagames_renpy/releases/latest), скачайте файл [yagames_sdk.py](https://github.com/valery-iwanofu/yagames_renpy/releases/latest/download/yagames_sdk.py) и поместите его в директорию game вашего Ren'Py проекта.
+
 ## Задействованные JS переменные
 * **ysdk** - во всём JS коде, который взаимодействует с SDK будет доступна эта переменная
 * **value** - доступна в *then* callback'ах 
 * **error** - доступна в *catch* callback'ах
-
-## Установка
-Перейдите [последнему релизу](https://github.com/valery-iwanofu/yagames_renpy/releases/latest), скачайте файл [yagames_sdk.py](https://github.com/valery-iwanofu/yagames_renpy/releases/latest/download/yagames_sdk.py) и поместите его в директорию game вашего Ren'Py проекта.
 
 ## Инициализация
 
